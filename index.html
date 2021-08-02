@@ -12,17 +12,7 @@
 	</script>
 	
 	
-	
-	<script type="text/javascript">
-document.getElementById("addToCartButton").onclick = function(){
-    ttq.track('AddToCart',{  
-    content_id: '301',
-    quantity: 1,
-    price: 13,
-    value: 9.2,
-    currency: 'GBP',})
- }
-</script>
+
 	
 	<meta charset="UTF-8">
     <title>My Basic Website</title>
@@ -65,6 +55,19 @@ document.getElementById("addToCartButton").onclick = function(){
 	<span class="btn-text">Checkout</span>
 	<i class="fa fa-star"></i>
 </button>
+		    
+		    	
+	<script type="text/javascript">
+document.getElementById("addToCartButton").onclick = function(){
+    ttq.track('AddToCart',{  
+    content_id: '301',
+    quantity: 1,
+    price: 13,
+    value: 9.2,
+    currency: 'GBP',})
+ }
+</script>
+		    
 		    <p>Marketing Signup Form</p>
 		    
 		    <form action="/checkout.html">
