@@ -60,14 +60,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <input type="email" id="email" name="email">
 		    
 
-<script>
-		    ttq.identify({
-    external_id: '9999',
-    email: 'testuser@gmail.com',
-    phone_number: '+755345345345',
-})
 
-		    </script>
 		    
 		      <script>
     ttq.track('Browse')
@@ -81,6 +74,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		    
 		    	
 	<script type="text/javascript">
+		
+
+		    ttq.identify({
+    external_id: '99999999',
+    email: 'testuser@gmail.com',
+    phone_number: '+755345345345',
+})
+
+		
+		
 document.getElementById("addToCartButton").onclick = function(){
     ttq.track('AddToCart',{  
     content_id: '301',
